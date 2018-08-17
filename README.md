@@ -2,7 +2,7 @@ Workshop 23 Warmup
 =
 Warmup Project for WarsawJS Workshop 23
 -
-[![Build Status](https://travis-ci.org/rsp/warsawjs-workshop-23-warmup-orig.svg?branch=master)](https://travis-ci.org/rsp/warsawjs-workshop-23-warmup-orig)
+[![Build Status](https://travis-ci.org/rsp/warsawjs-workshop-23-warmup.svg?branch=master)](https://travis-ci.org/rsp/warsawjs-workshop-23-warmup)
 
 Introduction
 -
