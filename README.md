@@ -124,7 +124,7 @@ For anyone who finished early there are some additional tasks:
   - Login with GitHub if needed
   - Click the "+" icon
   - Click "Sync account"
-  - Toggle the checkbox next to your project's name<br>Ypu'll get: https://travis-ci.org/YOUR_USERNAME/warsawjs-workshop-23-warmup
+  - Toggle the checkbox next to your project's name<br>You'll get: https://travis-ci.org/YOUR_USERNAME/warsawjs-workshop-23-warmup
   - Push changes to your repo and Travis should start automatically<br>(or click More options / Trigger build on your project's Travis page)
 
 4. Add correct CI status badges to the README
