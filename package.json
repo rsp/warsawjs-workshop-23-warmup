@@ -1,0 +1,44 @@
+{
+  "name": "warsawjs-workshop-23-warmup",
+  "version": "0.0.0",
+  "description": "Warmup Project for WarsawJS Workshop 23",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint backend/ frontend/ && echo LINTING OK || (echo LINTING ERROR; false)",
+    "npmls": "npm ls 2>&1 && echo NPMLS OK || echo NPMLS ERROR",
+    "sysinfo": "uname -a && cat /proc/meminfo && df -h . && echo SYSINFO OK || echo SYSINFO ERROR",
+    "versions": "echo -n 'NODE ' && node -v && echo -n 'NPM ' && npm -v && node -e 'console.log(process.versions);' && echo VERSIONS OK || echo VERSIONS ERROR",
+    "start": "node backend/server.js",
+    "testcafe": "testcafe chrome:headless tests/test.js && echo TESTCAFE OK || (echo TESTCAFE ERROR; false)",
+    "testcafe:gui": "testcafe chrome tests/test.js && echo TESTCAFE:GUI OK || (echo TESTCAFE:GUI ERROR; false)",
+    "test:gui": "npm run testcafe:gui && echo NPM TEST:GUI OK || (echo NPM TEST:GUI ERROR; false)",
+    "test:all": "npm run lint && npm test && echo NPM TEST:ALL OK || (echo NPM TEST:ALL ERROR; false)",
+    "test": "npm run testcafe && echo NPM TEST OK || (echo NPM TEST ERROR; false)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsp/warsawjs-workshop-23-warmup.git"
+  },
+  "author": "Rafał Pocztarski <r.pocztarski@gmail.com> (http://pocztarski.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsp/warsawjs-workshop-23-warmup/issues"
+  },
+  "homepage": "https://github.com/rsp/warsawjs-workshop-23-warmup#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "split": "^1.0.1",
+    "testcafe": "^0.21.1",
+    "winston": "^3.0.0"
+  }
+}
