@@ -4,6 +4,8 @@ Warmup Project for WarsawJS Workshop 23
 -
 [![Build Status](https://travis-ci.org/rsp/warsawjs-workshop-23-warmup.svg?branch=master)](https://travis-ci.org/rsp/warsawjs-workshop-23-warmup)
 [![CircleCI](https://circleci.com/gh/rsp/warsawjs-workshop-23-warmup.svg?style=svg)](https://circleci.com/gh/rsp/warsawjs-workshop-23-warmup)
+<br>
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Introduction
 -
@@ -131,8 +133,8 @@ For anyone who finished early there are some additional tasks:
   - Click the badge on your project's Travis page for correct URLs
 
 5. Deploy your application to either:
-  - Netlify
-  - Heroku
+  - Heroku (click the Deploy to Heroku button above)
+  - Netlify (if you only use client-side JavaScript)
   - Digital Ocean ([promo link](https://m.do.co/c/64b6b577b3de) for free 10 USD)
   - Vultr ([promo link](https://www.vultr.com/?ref=7107329) for free 10 USD)
 

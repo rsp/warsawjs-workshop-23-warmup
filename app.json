@@ -1,0 +1,7 @@
+{
+  "name": "workshop-23-warmup",
+  "description": "WarsawJS Workshop #23 - Warmup Project",
+  "repository": "https://github.com/rsp/warsawjs-workshop-23-warmup",
+  "website": "https://github.com/rsp/warsawjs-workshop-23-warmup#readme",
+  "image": "heroku/node"
+}
